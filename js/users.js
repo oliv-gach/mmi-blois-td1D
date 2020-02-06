@@ -31,3 +31,6 @@ function showUser(htmlItem) {
    });
    htmlItem.innerHTML = code;
 }
+
+var list_users = document.getElementById('users');
+showUser(list_users);
